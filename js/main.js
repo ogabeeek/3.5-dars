@@ -12,12 +12,15 @@ if ( summa == " "){
    alert("Bo'sh maydon kiritish mumkin emas")  
 };
 
-if(typeof summa === `string`){
-    alert("Iltimos son kiriting")
-};
 
 if ( summa >= retur){
     alert("Alisher oq yo'l")
 }else{
     alert("Pulingiz yetmaydi ozgina sabir qilishingiz kerak  ")
+};
+
+
+
+if(typeof summa === `string`){
+    alert("Iltimos son kiriting")
 };
